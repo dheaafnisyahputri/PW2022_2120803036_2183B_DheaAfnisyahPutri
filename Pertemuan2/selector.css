@@ -1,0 +1,22 @@
+body {
+  font-family: Arial;
+}
+
+#judul{
+  font-size: 50px;
+  color: firebrick;
+}
+
+
+.Twitter {
+  color: skyblue;
+  text-decoration: underline;
+}
+
+h1 {
+  color: coral;
+}
+
+div p {
+  font-weight: bold;
+}
