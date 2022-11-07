@@ -1,0 +1,205 @@
+/* Style */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.Home1 {
+background-image: url(logo\ uin.jpeg);
+background-size: cover;
+background-position: center;
+position: absolute;
+width: 320px;
+height: 290px;
+left: 50px;
+top: 5px;
+border: 1px solid #000;
+border-radius: 50px 0px 0px 0px;
+}
+
+.Header1 h1 {
+  position: absolute;
+  width: 220px;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-top: 10px;
+  font: poppins;
+  top: 290px;
+  left: 50px;
+  font-weight: bold;
+  border: 1px solid #000;
+  background-color: #2596FF;
+}
+
+.info {
+position: absolute;
+width: 320px;
+height: 200px;
+top: 331px;
+left: 50px;
+border: 1px solid #000;
+}
+
+.info ul li {
+  padding: 5px 5px;
+  border-bottom: 3px dotted #2596FF;
+  line-height: 200%;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.main img {
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 0 -180px;
+position: absolute;
+width: 1020px;
+height: 400px;
+top: 5px;
+left: 450px;
+border: 1px solid #000;
+border-radius: 0px 0px 50px 0px;
+}
+
+.header {
+  position: absolute;
+  width: 1020px;
+  height: 40px;
+  top: 430px;
+  left: 450px;
+  background-color: #2596FF;
+}
+
+.header ul li {
+  display: inline-block;
+  font-style: poppins;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  }
+
+.header a {
+padding: 80px;
+color: black;
+text-decoration: none;
+}
+
+.header a:visited {
+  font: poppins;
+  color: black;
+}
+
+.header a:hover {
+  color: white;
+}
+
+.isi {
+  position: absolute;
+  width: 1020px;
+  height: 480px;
+  top: 500px;
+  left: 450px;
+  border: 1px solid #000;
+}
+
+.isi h2 {
+  font: poppins;
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.isi p {
+  font: poppins;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 20px;
+  line-height: 200%;
+}
+
+.isi h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.isi img {
+  width: 310px;
+  height: 220px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.footer {
+  width: 1380px;
+  background-color: #2596FF;
+  padding: 20px;
+  position: absolute;
+  top: 1020px;
+  left: 50px;
+  border-radius:60px 0px 0px 0px;
+}
+
+.footer .copy {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font: poppins;
+}
+
+.footer .copy2 {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+  font: poppins;
+}
