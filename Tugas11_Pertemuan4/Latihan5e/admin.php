@@ -47,8 +47,6 @@ font-weight: inherit;
 margin-top: 9px;
 }
 
-  
-
   </style>
 </head>
 <body>
@@ -61,5 +59,3 @@ margin-top: 9px;
 </div>
 </body>
 </html>
-
-
